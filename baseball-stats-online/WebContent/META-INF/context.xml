@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/baseball_statistics" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="baseballgeek" password="g33k4lif3" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/baseball_statistics?useSSL=false&amp;serverTimezone=UTC"/>
+
+</Context>
